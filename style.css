@@ -1,0 +1,109 @@
+@font-face{
+    font-family: vintage;
+    src: url(./gradientico/Gradientico.ttf);
+    font-weight: normal;
+
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: vintage;
+    font-weight: 800;
+}
+body{
+    height: 100vh;
+    background-image: url(./img/Retro-Vapor-Wave-Pyramids.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    color: rgb(252, 239, 239);
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+.h1:hover {
+    color: #D53A9D;
+}
+p{
+    
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.h3{
+    color: rgb(252, 239, 239);
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+.h3:hover {
+    color: #D53A9D;
+}
+.b1{
+    color: #d53a9c96;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#sp{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.submid{
+    background-color: rgba(255, 255, 255, 0.541);
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+    width: 250px;
+    height: 90px;
+    border-radius:  48%;
+    margin-left: 40%;
+    
+}
+.submid:hover{
+    background-color: #d53a9c96;
+}
+
+#input{
+    width: 250px;
+    height: 90px;
+    font-size: 50px;
+    border-radius:  48%;
+    border: 2px solid palevioletred;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 70px;
+    color: rgb(5, 5, 5);
+    margin-left: 40%;
+    }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
